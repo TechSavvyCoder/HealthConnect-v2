@@ -8,28 +8,28 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RegistrationActivity extends AppCompatActivity {
+public class SigninActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_signin);
 
-        ImageButton button1 = (ImageButton) findViewById(R.id.btRegistrationBakepage);
+
+        ImageButton button1 = (ImageButton) findViewById(R.id.btSigninBackpage);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RegistrationActivity.this, OnboardingStep3Activity.class));
+                startActivity(new Intent(SigninActivity.this, OnboardingStep3Activity.class));
             }
         });
 
-        Button button2 = (Button) findViewById(R.id.btRegistrationToSignin);
+        Button button2 = (Button) findViewById(R.id.btSigninToRegistration);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RegistrationActivity.this, SigninActivity.class));
+                startActivity(new Intent(SigninActivity.this, RegistrationActivity.class));
             }
         });
-
     }
 }
