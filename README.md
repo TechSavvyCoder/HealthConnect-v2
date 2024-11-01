@@ -9,7 +9,7 @@ Final project for the course CSIS 3175
 ## TERM PROJECT:
 The app will assist the doctor in managing patient records, appointments, tracking treatments, and logging medications used during consultations. This project aims to help you practice mobile app development using Android Studio and database management with SQLite.
 
-## REQUIREMENTS:
+## DESIGN REQUIREMENTS:
 - Core App Features: Your app must include the following essential functionalities for the doctor:
     * Patient Records Management: Add, view and update patient information, including personal details and medical history.
     * Consultation History: Review past consultations, including diagnoses and treatments.
@@ -27,3 +27,17 @@ The app will assist the doctor in managing patient records, appointments, tracki
 - Team Collaboration:
     * Distribute tasks among group members and document each person’s contributions.
     * Collaborate effectively to complete the project, ensuring all members understand the app’s design and functionality.
+
+## SYSTEM REQUIREMENTS
+* Language: Java
+* Android Version: Koala | 2024.1.1 RC 2
+* Minimum SDK: API 23 ("Marshmallow"; Android 6.0)
+* Build Configuration Language: Groovy DSL (build.gradle)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TechSavvyCoder/HealthConnect-v2.git
+
+### Contact
+[Contact the developer](mailto:diegopinlac@gmail.com)
