@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthConnect"
         tools:targetApi="31">
-        <activity
-            android:name=".SigninActivity"
-            android:exported="false" />
+
         <activity
             android:name=".PatientHomeActivity"
             android:exported="false" />

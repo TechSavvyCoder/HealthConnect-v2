@@ -18,7 +18,7 @@ public class OnboardingStep3Activity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(OnboardingStep3Activity.this, SigninActivity.class));
+                startActivity(new Intent(OnboardingStep3Activity.this, LoginActivity.class));
             }
         });
 
